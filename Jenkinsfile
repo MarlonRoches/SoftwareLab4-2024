@@ -12,15 +12,6 @@ pipeline {
         }
     }
 
-    stage('install deps') {
-      steps {
-        sh 'npm install'
-      }
-    }
-    stage('run dev') {
-      steps {
-        sh 'npm start'
-      }
-    }
+    
   }
 }
